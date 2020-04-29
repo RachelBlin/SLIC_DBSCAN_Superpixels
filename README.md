@@ -17,3 +17,12 @@ To divide an image into superpixels using the SLIC algorithm and fuse them using
 
 The obtained results are below:
 
+![Original image](Original_image.png)
+
+![Plotting the superpixels boundaries using the SLIC algorithm](SLIC_boundaries.png)
+
+![Displaying the SLIC labels (mean of the values of the pixel composing the superpixel)](SLIC_labels.png)
+
+![Plotting the superpixels boundaries using the SLIC and DBSCAN algorithms](SLIC_DBSCAN_boundaries.png)
+
+![Displaying the SLIC and DBSCAN labels (mean of the values of the pixel composing the superpixel)](SLIC_DBSCAN_labels.png)
