@@ -3,6 +3,22 @@ This script segment an image into superpixels using the sclic algorithm combined
 
 ## Matlab version
 
+This program is inspired by Peter Kovesi program [Peter Kovesi's program](https://www.peterkovesi.com/projects/segmentation/). 
+
+In this version, the segmentation is done either according the colors (`mainSuperpixelsNonTexture.m`) or according to the image's texture (`mainSuperpixels.m`)
+
+The obtained results are below for classical RGB segmentation:
+
+![Plotting the superpixels boundaries using the SLIC algorithm](SLIC_boundaries_matlab_rgb.png)
+
+![Plotting the superpixels boundaries using the SLIC and DBSCAN algorithms](SLIC_DBSCAN_boundaries_matlab_rgb.png)
+
+The obtained results are below for the texture segmentation:
+
+![Plotting the superpixels boundaries using the SLIC algorithm](SLIC_boundaries_matlab.png)
+
+![Plotting the superpixels boundaries using the SLIC and DBSCAN algorithms](SLIC_DBSCAN_boundaries_matlab.png)
+
 ## Python version
 
 This repository requires:
