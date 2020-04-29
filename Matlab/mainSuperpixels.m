@@ -3,8 +3,6 @@ close all;
 
 pkg load image
 
-%% Code pour superpixel
-
 %% test landscape
 
 % loading image

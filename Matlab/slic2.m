@@ -182,7 +182,6 @@ function [l, Am, Sp, d] = slic2(im, k, m, seRadius, colopt, mw, nItr, eim, We)
 
            % Get subimage around cluster
            rmin = max(C(5,kk)-S, 1);   rmax = min(C(5,kk)+S, rows); 
-           disp(C(5,kk))
            cmin = max(C(4,kk)-S, 1);   cmax = min(C(4,kk)+S, cols); 
            subim = im(rmin:rmax, cmin:cmax, :);  
            assert(numel(subim) > 0)

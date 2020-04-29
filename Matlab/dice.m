@@ -1,10 +1,20 @@
 function [k, s] = dice(im, niv_gris, N);
-
-% s= 2|X inter Y|/(|X| + |Y|) avec |X| le nombre d'éléments de X
-% X et Y deux super-pixels, dans notre cas, on compare la proximité des
-% super pixels deux à deux.
-% niv_gris, le nombre de niveaux de gris dans lesquels on divise l'image
+% FR
+%
+% s= 2|X inter Y|/(|X| + |Y|) avec |X| le nombre d'Ã©lÃ©ments de X
+% X et Y deux super-pixels, dans notre cas, on compare la proximitÃ© des
+% super pixels deux Ã  deux.
+% niv_gris, le nombre de niveaux de gris de l'image
 % N le nombre de super-pixels que l'on veut
+
+% ----------------------------------------------------------------------------
+
+% EN
+% 
+% s = 2|X inter Y|/(|X| + |Y|) with |X| the number of elements in X and X and Y 
+% two superpixels, in our case, we compare the proximity of two superpixels
+% niv_gris: the number of gray levels in the image
+% N: the number of desired super-pixels
 
 n1 = 0;
 n2 = 0;

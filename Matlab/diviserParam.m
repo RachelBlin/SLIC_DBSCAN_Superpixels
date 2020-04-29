@@ -1,11 +1,22 @@
 function im_param = diviserParam(im, niv_gris, N)
 
-% im_param : l'image avec 3 canaux correspondant chacun à un paramètre de
-% texture : canal 1 = homogénéité, canal 2 : contraste, canal 3 :
-% uniformité
-% im : l'image que l'on souhaite trasnformer 
-% niv_gris : les nniveaux de gris de l'image souhaités
+% FR
+%
+% im_param : l'image avec 3 canaux correspondant chacun Ã  un paramÃ¨tre de
+% texture : canal 1 = homogÃ©nÃ©itÃ©, canal 2 : contraste, canal 3 : uniformitÃ©
+% im : l'image que l'on souhaite transformer 
+% niv_gris : les nniveaux de gris de l'image souhaitÃ©s
 % N : le nombre de superpixels que l'on veut 
+
+% -----------------------------------------------------------------------------
+
+% EN 
+%
+% im_param: the image in which each channel corresponds to a texture parameter. 
+% ch1 is the homogenity, ch2 is the contrast and ch3 is the uniformity
+% im: original image
+% niv_gris: the number of gray levels in the image
+% N: the number of wanted superpixels
 
 n1 = 0;
 n2 = 0;

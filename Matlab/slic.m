@@ -3,9 +3,11 @@
 % Implementation of Achanta, Shaji, Smith, Lucchi, Fua and Susstrunk's
 % SLIC Superpixels
 %
-% Usage:   [l, Am, Sp, d] = slic(im, k, m, seRadius, colopt, mw)
+% Usage:   [l, Am, Sp, d] = slic(im, im_param, k, m, seRadius, colopt, mw)
 %
 % Arguments:  im - Image to be segmented.
+%       im_param - the image in which each channel corresponds to a 
+%                  texture feature
 %              k - Number of desired superpixels. Note that this is nominal
 %                  the actual number of superpixels generated will generally
 %                  be a bit larger, espiecially if parameter m is small.
